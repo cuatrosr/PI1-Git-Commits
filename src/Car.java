@@ -15,4 +15,9 @@ public class Car {
     public int getCylinders() {
         return cylinders;
     }
+
+    @Override
+    public String toString() {
+        return "Wheels: " + wheels + "cylinders: " + cylinders + "\n";
+    }
 }
