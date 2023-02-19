@@ -1,7 +1,6 @@
 public class Car {
 
-    private final boolean wheels;
-    private final int cylinders;
+
 
     public Car(boolean wheels, int cylinders) {
         this.wheels = wheels;
@@ -12,7 +11,5 @@ public class Car {
         return wheels;
     }
 
-    public int getCylinders() {
-        return cylinders;
-    }
+
 }
