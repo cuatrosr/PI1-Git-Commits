@@ -1,14 +1,12 @@
 public class Car {
 
-    private final boolean wheels;
-    private final int cylinders;
+    private boolean wheels;
+    private int cylinders;
 
     public Car(boolean wheels, int cylinders) {
         this.wheels = wheels;
         this.cylinders = cylinders;
     }
-<<<<<<< HEAD
-=======
 
     public boolean isWheels() {
         return wheels;
@@ -30,5 +28,5 @@ public class Car {
     public String toString() {
         return "Wheels: " + wheels + "cylinders: " + cylinders + "\n";
     }
->>>>>>> e92731b (add cars toString and print)
+
 }
